@@ -22,3 +22,11 @@ There are three kinds of network architectures I used for this dataset.
 | Built from scratch | 0.72 |
 | Built by VGG19 | 0.4 |
 | Built by ResNet-50 | 0.92 |
+
+### Notes
+* Computing: Google Colab Tesla K80 GPU
+* Python version: 3.6.3
+* Using packages
+  1. `tensorflow.python.keras` for building models 
+  2. `cv2` for processing images
+  3. `sklearn` for train_test_split 
